@@ -15,7 +15,7 @@
     color: #FF900E;
 }
 /* dark 02 */
-.text-gray, .featuer-description {
+.text-gray, .featuer-description, .section {
     color: #424242;
 }
 /* dark 03 */
@@ -219,6 +219,17 @@ width: 100%;
     filter: grayscale(100%);
 }
 
+.footer-section {
+    max-width: 1440px;
+    max-height: 100px;
+    background-color: #FFF4E7;
+    justify-content: center;
+  margin: 120px 240px;
+
+}
+.section {
+    font-size: 1.5rem;
+}
 
 
 /* responsive media query */
